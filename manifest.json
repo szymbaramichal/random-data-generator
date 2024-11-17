@@ -2,15 +2,15 @@
     "manifest_version": 3,
     "name": "Generator Danych Losowych",
     "version": "1.0",
-    "description": "Generuje losowe dane i wstawia je do pola tekstowego.",
+    "description": "Generator losowych danych, który wstawia je do pól tekstowych na stronie. Pomoc dla developerów przy testowaniu różnych formularzy.",
     "permissions": ["contextMenus", "activeTab", "scripting"],
     "background": {
       "service_worker": "scripts/background.js"
     },
     "icons": {
-      "16": "16.png",
-      "48": "48.png",
-      "128": "128.png"
+      "16": "assets/s.png",
+      "48": "assets/m.png",
+      "128": "assets/l.png"
     }
   }
   
